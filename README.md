@@ -5,8 +5,8 @@ Este repositorio centraliza la documentación técnica y recursos del proyecto *
 ## 📁 Documentación para Descargar
 Haz clic en los enlaces para visualizar o descargar:
 
-* 📄 [Manual de Usuario (PDF)](./documentos/Manual_de_Canaima_UBV.pdf)
-* 📄 [Artículo Científico (PDF)](./documentos/Artículo_cientifico_de_Canaima_UBV.pdf)
+* 📄 [Manual de Usuario (PDF)](./documentos/Manual de Canaima UBV.pdf)
+* 📄 [Artículo Científico (PDF)](./documentos/Artículo_Científico_de_Canaima_UBV.pdf)
 * 📄 [Proyecto Canaima UBV (PDF)](./documentos/Proyecto_Canaima_UBV.pdf)
 * 🖼️ [Reconocimiento (JPG)](./anexos/Reconocimiento_Canaima_UBV.jpg)
 
