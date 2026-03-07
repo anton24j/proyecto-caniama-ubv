@@ -3,42 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canaima UBV - Proyecto</title>
+    <title>Canaima UBV - Tecnologías Libres</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        .download-card { border: 1px solid #444; padding: 15px; border-radius: 8px; margin-bottom: 10px; background: #1f2428; }
+        .badge { background: #0056b3; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; }
+        .news-link { text-decoration: none; color: #58a6ff; }
+    </style>
 </head>
 <body>
     <header>
         <h1>🐧 Proyecto Canaima UBV</h1>
-        <p>Documentación oficial y recursos multimedia</p>
+        <p>Variante del sistema operativo nacional adaptada para la Universidad Bolivariana de Venezuela.</p>
     </header>
 
     <main>
         <section>
-            <h2>📄 Descargas Directas</h2>
+            <h2>💾 Descargas (Imágenes ISO)</h2>
+            <div class="download-card">
+                <strong>Canaima UBV Desarrollo</strong> <span class="badge">64 bits</span><br>
+                <a href="https://www.mediafire.com/file/0r7i3iga9arizct/canaimaubv-de.iso/file">Descargar desde Mediafire</a>
+            </div>
+            <div class="download-card">
+                <strong>Canaima UBV Lite</strong> <span class="badge">32 bits</span><br>
+                <a href="https://www.mediafire.com/file/izlvpjollw60y4c/canaimaubv-li32.iso/file">Descargar desde Mediafire</a>
+            </div>
+            <div class="download-card">
+                <strong>Canaima UBV Lite</strong> <span class="badge">64 bits</span><br>
+                <a href="https://www.mediafire.com/file/yqncr2d0lgfse9z/canaimaubv-li64.iso/file">Descargar desde Mediafire</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>📰 Prensa y Reconocimientos</h2>
             <ul>
-                <li><a href="documentos/Manual_de_Canaima_UBV.pdf" target="_blank">Manual de Usuario</a></li>
-                <li><a href="documentos/Artículo_Científico_de_Canaima_UBV.pdf" target="_blank">Proyecto Completo</a></li>
-                <li><a href="documentos/Proyecto_Canaima_UBV.pdf" target="_blank">Proyecto Completo</a></li>
-
-                <li><a href="https://www.mediafire.com/file/0r7i3iga9arizct/canaimaubv-de.iso/file">Canaima UBV versión Desarrollo 64bits (Mediafire)</a></li>
-                <li><a href="https://www.mediafire.com/file/izlvpjollw60y4c/canaimaubv-li32.iso/file">Canaima UBV versión lite 32bits (Mediafire)</a></li>
-                <li><a href="https://www.mediafire.com/file/yqncr2d0lgfse9z/canaimaubv-li64.iso/file">Canaima ubv versión 64bits (Mediafire)</a></li>
-
+                <li><a class="news-link" href="https://cnti.gob.ve/ubv-presenta-la-nueva-variante-del-sistema-operativo-canaima-gnu-linux-canaima-ubv/">Presentación oficial - CNTI</a></li>
+                <li><a class="news-link" href="https://presidencia.gob.ve/Site/Web/Principal/paginas/classMostrarEvento3.php?id_evento=25455">Reseña en Presidencia de la República</a></li>
+                <li><a class="news-link" href="https://www.conati.gob.ve/index.php/2023/10/11/desarrollan-sistema-operativo-canaima-ubv-para-promover-uso-de-tecnologias-libres/">Promoción de Tecnologías Libres - CONATI</a></li>
+                <li><a class="news-link" href="https://www.instagram.com/reel/Cz36-CbMRGM/">Video del Proyecto (Reel)</a></li>
             </ul>
         </section>
+
         <section>
-            <h2>📰 Prensa y Difusión</h2>
-            <p>Lee más sobre el impacto de este proyecto:</p>
-            <ul>
-                <li><a href="https://cnti.gob.ve/ubv-presenta-la-nueva-variante-del-sistema-operativo-canaima-gnu-linux-canaima-ubv/">Reseña del CNTI</a></li>
-                <li><a href="https://presidencia.gob.ve/Site/Web/Principal/paginas/classMostrarEvento3.php?id_evento=25455">Nota de Prensa de Presidencia.gob.ve</a></li>
-                <li><a href="https://www.conati.gob.ve/index.php/2023/10/11/desarrollan-sistema-operativo-canaima-ubv-para-promover-uso-de-tecnologias-libres/">Nota de Prensa de CONATI</a></li>
-            </ul>
+            <h2>📄 Documentación Técnica</h2>
+            <p>Consulta los PDFs oficiales en la <a href="https://github.com/anton24j/proyecto-caniama-ubv/tree/main/documentos">carpeta de documentos</a> del repositorio.</p>
         </section>
     </main>
 
     <footer>
-        <p>Universidad Bolivariana de Venezuela - 2026</p>
+        <hr>
+        <p>Desarrollado en la Universidad Bolivariana de Venezuela (UBV).</p>
     </footer>
 </body>
 </html>
