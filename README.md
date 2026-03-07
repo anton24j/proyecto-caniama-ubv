@@ -8,7 +8,7 @@ Haz clic en los enlaces para visualizar o descargar:
 * 📄 [Manual de Usuario (PDF)](./documentos/Manual_de_Canaima_UBV.pdf)
 * 📄 [Artículo Científico (PDF)](./documentos/Artículo_Científico_de_Canaima_UBV.pdf)
 * 📄 [Proyecto Canaima UBV (PDF)](./documentos/Proyecto_Canaima_UBV.pdf)
-* 🖼️ [Reconocimiento (JPG)](./anexos/reconomciento_Canaima_UBV.jpg)
+* 🖼️ [Reconocimiento (JPG)](./anexos/reconocimiento_Canaima_UBV.jpg)
 
 ## 💾 Enlaces Externos y Mediafire
 * 🚀 [Canaima ubv versión Desarrollo 64bits (Mediafire)](https://www.mediafire.com/file/0r7i3iga9arizct/canaimaubv-de.iso/file)
