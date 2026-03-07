@@ -6,53 +6,64 @@
     <title>Canaima UBV - Tecnologías Libres</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     <style>
-        .download-card { border: 1px solid #444; padding: 15px; border-radius: 8px; margin-bottom: 10px; background: #1f2428; }
-        .badge { background: #0056b3; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; }
-        .news-link { text-decoration: none; color: #58a6ff; }
+        /* Estilos personalizados para el logo y las tarjetas */
+        .site-header { display: flex; align-items: center; gap: 20px; margin-bottom: 20px; border-bottom: 1px solid #444; padding-bottom: 20px; }
+        .site-logo { max-width: 120px; height: auto; display: block; }
+        .download-card { border: 1px solid #444; padding: 15px; border-radius: 8px; margin-bottom: 15px; background: #1f2428; }
+        .badge { background: #0056b3; color: white; padding: 3px 10px; border-radius: 4px; font-size: 0.8em; margin-left: 10px; font-family: monospace; }
+        .news-link { text-decoration: none; color: #58a6ff; font-weight: bold; }
+        .news-link:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <header>
-        <h1>🐧 Proyecto Canaima UBV</h1>
-        <p>Variante del sistema operativo nacional adaptada para la Universidad Bolivariana de Venezuela.</p>
+    <header class="site-header">
+        <img src="logo-canaima-ubv.png" alt="Logo Canaima UBV y Universidad Bolivariana de Venezuela" class="site-logo">
+        <div>
+            <h1 style="margin: 0; font-size: 1.8em;">🐧 Proyecto Canaima UBV</h1>
+            <p style="margin: 5px 0 0 0; color: #8b949e;">Variante del sistema operativo nacional adaptada para la Universidad Bolivariana de Venezuela.</p>
+        </div>
     </header>
 
     <main>
         <section>
-            <h2>💾 Descargas (Imágenes ISO)</h2>
+            <h2>💾 Descargas Oficiales (Imágenes ISO)</h2>
+            <p style="color: #8b949e;">Alojadas en Mediafire. Por favor, verifica la arquitectura de tu equipo.</p>
+            
             <div class="download-card">
                 <strong>Canaima UBV Desarrollo</strong> <span class="badge">64 bits</span><br>
-                <a href="https://www.mediafire.com/file/0r7i3iga9arizct/canaimaubv-de.iso/file">Descargar desde Mediafire</a>
+                <a href="https://www.mediafire.com/file/0r7i3iga9arizct/canaimaubv-de.iso/file" target="_blank">Descargar (Mediafire)</a>
             </div>
+            
             <div class="download-card">
                 <strong>Canaima UBV Lite</strong> <span class="badge">32 bits</span><br>
-                <a href="https://www.mediafire.com/file/izlvpjollw60y4c/canaimaubv-li32.iso/file">Descargar desde Mediafire</a>
+                <a href="https://www.mediafire.com/file/izlvpjollw60y4c/canaimaubv-li32.iso/file" target="_blank">Descargar (Mediafire)</a>
             </div>
+            
             <div class="download-card">
                 <strong>Canaima UBV Lite</strong> <span class="badge">64 bits</span><br>
-                <a href="https://www.mediafire.com/file/yqncr2d0lgfse9z/canaimaubv-li64.iso/file">Descargar desde Mediafire</a>
+                <a href="https://www.mediafire.com/file/yqncr2d0lgfse9z/canaimaubv-li64.iso/file" target="_blank">Descargar (Mediafire)</a>
             </div>
         </section>
 
         <section>
-            <h2>📰 Prensa y Reconocimientos</h2>
+            <h2>📰 Impacto Institucional y Prensa</h2>
             <ul>
-                <li><a class="news-link" href="https://cnti.gob.ve/ubv-presenta-la-nueva-variante-del-sistema-operativo-canaima-gnu-linux-canaima-ubv/">Presentación oficial - CNTI</a></li>
-                <li><a class="news-link" href="https://presidencia.gob.ve/Site/Web/Principal/paginas/classMostrarEvento3.php?id_evento=25455">Reseña en Presidencia de la República</a></li>
-                <li><a class="news-link" href="https://www.conati.gob.ve/index.php/2023/10/11/desarrollan-sistema-operativo-canaima-ubv-para-promover-uso-de-tecnologias-libres/">Promoción de Tecnologías Libres - CONATI</a></li>
-                <li><a class="news-link" href="https://www.instagram.com/reel/Cz36-CbMRGM/">Video del Proyecto (Reel)</a></li>
+                <li><a class="news-link" href="https://presidencia.gob.ve/Site/Web/Principal/paginas/classMostrarEvento3.php?id_evento=25455" target="_blank">Reseña en Presidencia de la República</a></li>
+                <li><a class="news-link" href="https://cnti.gob.ve/ubv-presenta-la-nueva-variante-del-sistema-operativo-canaima-gnu-linux-canaima-ubv/" target="_blank">Presentación oficial - CNTI</a></li>
+                <li><a class="news-link" href="https://www.conati.gob.ve/index.php/2023/10/11/desarrollan-sistema-operativo-canaima-ubv-para-promover-uso-de-tecnologias-libres/" target="_blank">Promoción de Soberanía Tecnológica - CONATI</a></li>
+                <li><a class="news-link" href="https://www.instagram.com/reel/Cz36-CbMRGM/" target="_blank">Ver Video del Proyecto (Reel)</a></li>
             </ul>
         </section>
 
         <section>
             <h2>📄 Documentación Técnica</h2>
-            <p>Consulta los PDFs oficiales en la <a href="https://github.com/anton24j/proyecto-caniama-ubv/tree/main/documentos">carpeta de documentos</a> del repositorio.</p>
+            <p>Consulta los PDFs oficiales del proyecto en la <a href="https://github.com/anton24j/proyecto-caniama-ubv/tree/main/documentos">carpeta de documentos</a> de este repositorio.</p>
         </section>
     </main>
 
     <footer>
         <hr>
-        <p>Desarrollado en la Universidad Bolivariana de Venezuela (UBV).</p>
+        <p style="text-align: center; color: #8b949e;">Universidad Bolivariana de Venezuela (UBV) — Eje Geopolítico Regional Heroína Juana La Avanzadora — 2026</p>
     </footer>
 </body>
 </html>
